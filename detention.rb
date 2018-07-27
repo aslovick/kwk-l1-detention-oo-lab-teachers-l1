@@ -17,30 +17,30 @@ class Detention
   def add_student(name)
     @students << name
   end
+attr_accessor :location, :time, :grumpy_teacher
+  # def location=(location)
+  #   @location = location
+  # end
 
-  def location=(location)
-    @location = location
-  end
+  # def location
+  #   @location
+  # end
 
-  def location
-    @location
-  end
+  # def time=(time)
+  #   @time = time
+  # end
 
-  def time=(time)
-    @time = time
-  end
+  # def time
+  #   @time
+  # end
 
-  def time
-    @time
-  end
+  # def grumpy_teacher=(grumpy_teacher)
+  #   @grumpy_teacher = grumpy_teacher
+  # end
 
-  def grumpy_teacher=(grumpy_teacher)
-    @grumpy_teacher = grumpy_teacher
-  end
-
-  def grumpy_teacher
-    @grumpy_teacher
-  end
+  # def grumpy_teacher
+  #   @grumpy_teacher
+  # end
 
 
   def activity
